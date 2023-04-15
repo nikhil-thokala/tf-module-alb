@@ -10,3 +10,5 @@ variable "enable_deletion_protection" {
 }
 
 variable "subnets" {}
+variable "vpc_id" {}
+variable "allow_cidr" {}
